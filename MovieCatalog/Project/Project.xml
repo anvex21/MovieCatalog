@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project</name>
+    </assembly>
+    <members>
+        <member name="M:Project.Business.ProjectBusiness.GetAllMovies">
+            <summary>
+            Get all movies from the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetAllActors">
+            <summary>
+            Get all actors from the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetAllGenres">
+            <summary>
+            Get all genres from the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetAllDirectors">
+            <summary>
+            Get all directors from the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetMovie(System.Int32)">
+            <summary>
+            Get a single movie from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetActor(System.Int32)">
+            <summary>
+            Get a single actor from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetGenre(System.Int32)">
+            <summary>
+            Get a single genre from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.GetDirector(System.Int32)">
+            <summary>
+            Get a single director from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.AddMovie(Project.Data.Model.Movie)">
+            <summary>
+            Add a movie to the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.AddActor(Project.Data.Model.Actor)">
+            <summary>
+            Add an actor to the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.AddGenre(Project.Data.Model.Genre)">
+            <summary>
+            Add a movie to the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.AddDirector(Project.Data.Model.Director)">
+            <summary>
+            Add an director to the database
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.UpdateMovie(Project.Data.Model.Movie)">
+            <summary>
+            Update a single movie in the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.UpdateActor(Project.Data.Model.Actor)">
+            <summary>
+            Update a single actor in the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.UpdateGenre(Project.Data.Model.Genre)">
+            <summary>
+            Update a single genre in the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.UpdateDirector(Project.Data.Model.Director)">
+            <summary>
+            Update a single director in the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.DeleteMovie(System.Int32)">
+            <summary>
+            Delete a movie from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.DeleteActor(System.Int32)">
+            <summary>
+            Delete an actor from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.DeleteGenre(System.Int32)">
+            <summary>
+            Delete a genre from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Business.ProjectBusiness.DeleteDirector(System.Int32)">
+            <summary>
+            Delete a director from the database by id
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.ShowMenu">
+            <summary>
+            Menu UI
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.Input">
+            <summary>
+            User Input
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.Delete">
+            <summary>
+            US for Deletion
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.Fetch">
+            <summary>
+            UI for getting records from the database
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.Update">
+            <summary>
+            UI dor updating records in the database.
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.Add">
+            <summary>
+            UI for adding records to the database.
+            </summary>
+        </member>
+        <member name="M:Project.Presentation.Display.ListAll">
+            <summary>
+            UI to list all the products.
+            </summary>
+        </member>
+    </members>
+</doc>
